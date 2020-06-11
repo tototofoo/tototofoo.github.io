@@ -1,23 +1,90 @@
 <html>
-<title>To TaroCake!!!</title>
-<body background="https://i.loli.net/2020/06/10/y4MLQ6GrCAWt3TX.jpg">
-<div align=center>
-<img src="https://i.loli.net/2020/06/10/zaXuAqrokdn7F4L.gif" width="800" height="400" alt="好想吃香芋蛋糕..." />
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>To TaroCake!!!☺</title>
+  <style id="l链接样式">
+    a:link {text-decoration: none; color:#7B68EE;}      /* 未访问链接*/
+    a:visited {text-decoration: none; color:#7B68EE;}  /* 已访问链接 */
+    a:hover {text-decoration:overline; color:#FF1493;}  /* 鼠标移动到链接上 */
+    a:active {color:#0000CD;}  /* 鼠标点击时 */
+    </style>
+</head>
+<body>
+ <body background="https://i.loli.net/2020/06/10/y4MLQ6GrCAWt3TX.jpg"
+ <body oncontextmenu="return false"  onselectstart="return false"  ondragstart="return false">
+ <div id="tarosan"
+       align=center
+       style="margin-top:40px;">
+      <img src="https://i.loli.net/2020/06/10/zaXuAqrokdn7F4L.gif" width="800" height="400" alt="好想吃香芋蛋糕..." />
+    </div>
 
-<style type="text/css">
-a:link {color: #8258FA}
-a:visited {color: #8258FA}
-a:hover {color: #8258FA}
-a:active {color: #0000FF}
-</style>
-</div>
-<div style="height: 500px; padding-top: 65px; position: absolute; left: 50%; width: 600px; margin-left: -300px;">
-  <p>
-    <a href="https://tototofoo.github.io/blog/" style="margin-left: 3px">BLOG</a>
+ <script id="time">
+    function show(){
+    var date = new Date(); //日期对象
+    var now = "";
+    now = date.getFullYear()+"&nbsp / &nbsp"; //读英文就行了
+    now = now + (date.getMonth()+1)+"&nbsp / &nbsp"; //取月的时候取的是当前月-1如果想取当前月+1就可以了
+    now = now + date.getDate()+"&nbsp &nbsp 营业中 &nbsp &nbsp ";
+    now = now + date.getHours()+"  : ";
+    now = now + date.getMinutes()+" :  ";
+    now = now + date.getSeconds()+"&nbsp s";
+    document.getElementById("nowDiv").innerHTML = now; //div的html是now这个字符串
+
+    setTimeout("show()",1000); //设置过1000毫秒就是1秒，调用show方法
+    }
+    </script>
+    <body onload="show()"> <!-- 网页加载时调用一次 以后就自动调用了-->
+
+    <div id="nowDiv" align="center"
+    style="font:17px 微软雅黑;
+    color:#FF69B4"></div>
+
+ <div id="direct"
+      align=center
+      style="height: 50px;
+      position: absolute;
+      left: 50%;
+      width: 500px;
+      margin-left: -250px;
+      border-radius: 20px;
+      background:#AFEEEE">
+      <p>
+        <a href="https://tototofoo.github.io/blog/" style="font:19px Courier New; margin-left: 3px">BLOG</a>
+        <a href="https://cakegame.netlify.app" style="font:19px Courier New; margin-left: 15px">CAKEGAME</a>
+        <a href="https://twitter.com/tototo_taro" style="font:19px Courier New; margin-left: 15px">Twitter</a>
+      </p>
+      </div>
+
+ <div id="daily"
+           align=center
+           style="height: 160px;
+           width: 500px;
+           margin-top:60px;
+           position: absolute;
+           left: 50%;
+           margin-left: -250px;
+           border-radius: 20px;
+           background:#E6E6FA;
+           "
+ <div>
+      <div align=left
+            style="font:14px 微软雅黑; color:#BA55D3">
+             <p> &nbsp &nbsp -更新记录- </p>
+             <p> &nbsp &nbsp 2020/6/11 测试
 
 
 
-</p>
-<font color="#8258FA" size="2" >tototo / 2020</font><br />
+
+
+ </div>
+
+ <div id="icon"
+    align=center
+    style="font:13px 微软雅黑;
+    color: #7B68EE;
+    margin-top:180px">©Copyright 2020 by tototo</div>
+
+ <div id=“blank”
+  style="height:30px" ></div>
 </body>
 </html>
